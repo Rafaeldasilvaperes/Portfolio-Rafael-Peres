@@ -1,0 +1,39 @@
+
+.aboutMe{
+  grid-area: aboutMe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 64px var(--padding-default);
+ 
+  background-color: #EAF2FD;
+  /* background-color: #EAF2FD; */
+  border: 1px solid red;
+}
+
+/* 13.368%       */
+
+
+.aboutMe__titulo{
+  text-align: center;
+  font-weight: 700;
+  font-size: var(--fs-content-titulo700);
+  line-height: var(--lh-content-titulo700);
+  margin-bottom: 16px;
+  
+}
+
+.aboutMe__paragrafo{
+  text-align: justify;
+  font-weight: 400;
+  font-size: var(--fs-content-P);
+  line-height: var(--lh-content-P);
+  margin-bottom: 16px;
+  
+}
+
+.aboutMe__assinatura{
+  font-size: 32px;
+  text-align: center;
+}

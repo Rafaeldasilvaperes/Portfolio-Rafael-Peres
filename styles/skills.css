@@ -1,0 +1,108 @@
+.skills{
+  grid-area: skills;
+  padding: 64px 0;
+}
+
+.skills__titulo{
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.skills__cards {
+	display: flex;
+	flex-wrap: wrap;
+  flex-direction: row;
+	justify-content: center;
+}
+.skills__cards___link h3{
+	color: #FFF;
+	background-color: #000;
+	text-align: center;
+	
+	opacity: 0.5;
+}
+
+
+.skills__cards___link {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+
+	width: 180px;
+	height: 180px;
+	margin: 1%;
+	line-height: 30px;
+
+	font-weight: bold;
+	transition: .3s;
+	box-shadow: 2px 5px 5px rgb(0, 0, 0);
+	/* padding-left: 1%; */
+}
+
+.skills__cards___link:hover {
+	box-shadow: 8px 8px 5px rgb(0, 0, 0);
+}
+
+/* .skills__cards___link::before {
+	content: '';
+	display: block;
+	width: 35px;
+	height: 35px;
+	margin: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+} */
+
+.skills__cards___link:nth-child(1){
+	background: url(../img/HTML-svg.svg) no-repeat;
+	background-position: center;
+	background-size: 20%;
+	background-color: #FFF;
+	
+}
+.skills__cards___link:nth-child(2) {
+	background: url(../img/CSS-svg.svg) no-repeat;
+	background-position: center;
+	background-size: 25%;
+	background-color: #FFF;	
+	
+	
+}
+.skills__cards___link:nth-child(3) {
+	background: url(../img/JS-svg.svg) no-repeat;
+	background-position: center;
+	background-size: 20%;
+	background-color: #FFF;
+}
+.cards--hobbies:nth-child(1) {
+	background: url(../img/guitar.svg) no-repeat;
+	background-position: center;
+	background-size: 20%;
+	background-color: #FFF;
+}
+.cards--hobbies:nth-child(2) {
+	background: url(../img/music-svg.svg) no-repeat;
+	background-position: center;
+	background-size: 20%;
+	background-color: #FFF;
+}
+.cards--hobbies:nth-child(3) {
+	background: url(../img/controller-svg.svg) no-repeat;
+	background-position: center;
+	background-size: 20%;
+	background-color: #FFF;
+}
+
+
+@media screen and (max-width: 768px){
+	.skills__cards___link{
+		width: 100px;
+		height: 100px;
+	}
+}
+
+

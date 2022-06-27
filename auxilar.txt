@@ -1,0 +1,43 @@
+DESKTOP/TABLET/MOBILE
+
+HERO TITULO 
+font-weight: 700;
+font-size: 52px;/ 22px; / 22px;
+line-height: 61px; / 25.83px; / 25.83px;
+
+HERO SUBTITULO
+font-weight: 400;
+font-size: 22px;/ 16px; / 14px;
+line-height: 26px;/ 18.78px / 16.44px;
+
+<!--!>
+ABOUTME TITULO
+font-weight: 700;
+font-size: 32px; / 22px; / 22px;
+line-height: 37.57px; / 25.83px; / 25.83px;
+
+ABOUT ME PARAGRAFO
+font-weight: 400;
+font-size: 16px; / 14px; / 14px;
+line-height: 19px; / 16.44px; / 16.44px;
+
+DESKTOP
+--fs-titulo700: 52px;
+--lh-titulo700: 61px;
+--fs-subt400: 22px;
+--lh-subt400: 26px;
+--fs-content-titulo: 32px;
+--lh-content-titulo: 37.57px;
+--fs-content-P: 16px;
+--lh-content-P: 19px;
+
+TABLET
+--fs-titulo700: 22px;
+--lh-titulo700: 25.83px;
+--fs-subt400: 16px;
+--lh-subt400: 18.78px;
+--fs-content-titulo700: 22px;
+--lh-content-titulo: 25.83px;
+--fs-content-P: 14px;
+--lh-content-P: 16.44px;
+_________________________________

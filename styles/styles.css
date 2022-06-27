@@ -1,0 +1,70 @@
+:root{
+  --fs-titulo700: 52px;
+  --lh-titulo700: 61px;
+
+  --fs-subt400: 22px;
+  --lh-subt400: 26px;
+
+  --fs-content-titulo700: 32px;
+  --lh-content-titulo700: 37.57px;
+
+  --fs-content-P: 16px;
+  --lh-content-P: 19px;
+
+  --padding-cabe: 152px;
+  --padding-default: 344.5px;
+}
+
+body{
+  /* width: 100vw; */
+  background-color: #F5F5F5;
+  /* color: white;
+  background-image: linear-gradient(to bottom right, #3b3b4b, #000000); */
+}
+
+
+.app{
+  display: grid;
+  grid-template-areas: 
+  "cabecalho"
+  "conteudo"
+  "rodape";
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  gap: 32px;
+  border: 1px solid red;
+}
+
+.cabecalho{
+  grid-area: cabecalho;
+  border: 1px solid red;
+}
+
+.conteudo{
+  grid-area: conteudo;
+  display: grid;
+  gap: 32px;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: 
+  "hero"
+  "aboutMe"
+  "skills";
+
+  /* border: 1px solid rgb(87, 248, 120); */
+  
+}
+
+.rodape{
+  grid-area: rodape;
+  border: 1px solid red;
+}
+
+.container{
+  /* width: 78.89%; */
+	margin: 0 0;
+}
+
+
