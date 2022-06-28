@@ -1,5 +1,5 @@
 .cabecalho{
-  padding: 32px var(--padding-cabe);
+  padding: 32px var(--padding-default);
   
 }
 
@@ -10,11 +10,13 @@
 }
 
 .cabecalho__logo{
-  width: 10px;
-  height: 10px;
+  font-family: 'Babylonica', cursive;
+  font-size: var(--fs-LOGO);
   
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-
 
 .cabecalo__nav___ul{
   display: flex;
@@ -29,4 +31,12 @@
   font-weight: 500;
   font-size: var(--fs-content-P);
   line-height: 24px;
+}
+
+@media screen and (max-width: 1260px){
+
+  .cabecalho__nav___lista_items:not(:nth-child(6)){
+    display: none;
+  }
+
 }

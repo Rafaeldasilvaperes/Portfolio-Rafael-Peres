@@ -8,15 +8,16 @@
   padding: 64px var(--padding-default);
  
   background-color: #EAF2FD;
-  /* background-color: #EAF2FD; */
   border: 1px solid red;
 }
 
-/* 13.368%       */
 
+.aboutMe__box{
+  padding-right: var(--padding-sobreMin); /*385px*/
+}
 
 .aboutMe__titulo{
-  text-align: center;
+  text-align: left;
   font-weight: 700;
   font-size: var(--fs-content-titulo700);
   line-height: var(--lh-content-titulo700);
@@ -34,6 +35,7 @@
 }
 
 .aboutMe__assinatura{
-  font-size: 32px;
-  text-align: center;
+  font-size: var(--fs-LOGO);
+  text-align: left;
+  font-family: 'Babylonica', cursive;
 }

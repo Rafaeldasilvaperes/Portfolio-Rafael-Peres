@@ -1,0 +1,77 @@
+@media screen and (maxx-width: 768px){
+
+}
+
+@media screen and (min-width: 1900px){
+	:root{
+		/* --fs-titulo700: 52px;
+  --lh-titulo700: 61px;
+
+  --fs-subt400: 22px;
+  --lh-subt400: 26px;
+
+  --fs-content-titulo700: 32px;
+  --lh-content-titulo700: 37.57px;
+
+  --fs-content-P: 16px;
+  --lh-content-P: 19px;
+
+  --padding-default: 152px; */
+		--fs-titulo700: 90px;
+		--lh-titulo700: 105.58px;
+
+		--fs-subt400: 38.08px;
+		--lh-subt400: 45px;
+
+		--fs-content-P: 28px;
+		--lh-content-P: 32px;
+
+		--padding-default: 122px;
+	}
+}
+
+
+@media screen and (max-width: 1180px) {
+  :root{
+		--fs-LOGO: 30px;
+
+		--fs-titulo700: 22px;
+		--lh-titulo700: 25.83px;
+		--fs-subt400: 16px;
+		--lh-subt400: 18.78px;
+		--fs-content-titulo700: 22px;
+		--lh-content-titulo700: 25.83px;
+		--fs-content-P: 14px;
+		--lh-content-P: 16.44px;
+
+		--padding-default: 122px;
+		--padding-sobreMin: 0;
+
+		--foto-width: 146px;
+		--foto-height: 146px;
+	}
+	
+}
+
+@media screen and (max-width: 500px) {
+  :root{
+		--padding-cabe: 16px;
+		--padding-default: 16px;
+		--padding-sobreMin: 0;
+
+		--fs-incones-medias-sociais: 25px;
+		--foto-width: 98px;
+		--foto-height: 98px;
+	}
+	.app{
+		gap: 0px;
+	}
+	.conteudo{
+		gap: 0px
+	}
+	.cabecalho{
+    padding: 10px var(--padding-default);
+  }
+	
+}
+

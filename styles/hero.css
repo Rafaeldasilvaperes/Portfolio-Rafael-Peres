@@ -3,18 +3,18 @@
   display: flex;
   justify-content: center;
   padding: 38.5px var(--padding-default);
-  /* margin-bottom: 70.5px; */
-
-  /* background-color: antiquewhite; */
   border: 1px solid red;
 }
-
+.hero__box{
+  margin-right: 5%;
+}
 
 .hero__box___titulo{
   font-weight: 700;
   font-size: var(--fs-titulo700);
   line-height: var(--lh-titulo700);
-  text-align: center;
+  text-align: justify;
+  
   margin-bottom: 24px;
 }
 
@@ -22,16 +22,52 @@
   font-weight: 400;
   font-size: var(--fs-subt400);
   line-height: var(--lh-subt400);
-  text-align: center;
+  text-align: left;
   margin-bottom: 24px;
   
 }
 
 .hero__box___mediaLinks{
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
+  justify-content: center;
   padding: 22px 0;
-  
+}
+
+.hero__box___mediaLinks-items:not(:nth-child(1)){
+  margin-left: 10%;
+}
+
+.hero__box___mediaLinks-items a{
+  text-decoration: none;
+  color: black;
+}
+
+.hero__box___mediaLinks-items:nth-child(1) a:hover{
+  color: #6e5494;
+}
+
+.hero__box___mediaLinks-items:nth-child(2) a:hover{
+  color: #0072b1;
+}
+
+.hero__box___mediaLinks-items:nth-child(3) a:hover .bi-instagram{
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero__box___mediaLinks-items:nth-child(4) a:hover{
+  color: rgb(123, 124, 123);
+}
+
+.incone{
+  font-size: var(--fs-incones-medias-sociais);
+
+}
+
+.hero__foto{
+  width: var(--foto-width);
+  height: var(--foto-height);
+  float: right;
+  border-radius: 50%;
 }

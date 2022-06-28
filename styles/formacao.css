@@ -1,0 +1,41 @@
+.formacao{
+  background-color: #EAF2FD;
+  padding: 64px 0;
+
+  border: 1px solid red;
+}
+
+.formacao__titulo{
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.formacao__figure__box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.formacao__figure{
+  margin: 1%;
+}
+.formacao__figure p{
+  line-height: var(--lh-subt400);
+}
+
+.formacao__figure__imagem{
+  width: 368px;
+	height: 286px;
+  object-fit: scale-down;
+	background-color: white;
+	line-height: 30px;
+}
+
+.formacao__figure__caption{
+  font-size: var(--fs-subt400);
+  line-height: var(--lh-subt400);
+  font-weight: bold;
+}

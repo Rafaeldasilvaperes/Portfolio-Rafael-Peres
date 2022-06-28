@@ -1,4 +1,6 @@
 :root{
+  --fs-LOGO: 3em;
+
   --fs-titulo700: 52px;
   --lh-titulo700: 61px;
 
@@ -11,8 +13,13 @@
   --fs-content-P: 16px;
   --lh-content-P: 19px;
 
-  --padding-cabe: 152px;
-  --padding-default: 344.5px;
+  --padding-default: 152px;
+  --padding-sobreMin: 385px;
+
+  --foto-width: 368px;
+  --foto-height: 368px;
+
+  --fs-incones-medias-sociais: 32px;
 }
 
 body{
@@ -51,7 +58,8 @@ body{
   grid-template-areas: 
   "hero"
   "aboutMe"
-  "skills";
+  "skills"
+  "formacao";
 
   /* border: 1px solid rgb(87, 248, 120); */
   

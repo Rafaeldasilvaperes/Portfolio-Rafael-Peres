@@ -12,10 +12,20 @@
   <link href="./styles/hero.css" rel="stylesheet">
   <link href="./styles/aboutMe.css" rel="stylesheet">
   <link href="./styles/skills.css" rel="stylesheet">
+  <link href="./styles/formacao.css" rel="stylesheet">
   
+  <link href="./styles/footer.css" rel="stylesheet">
+  
+  <!--CSS RESPONSIVO-->
+  <link href="./styles/responsivo/responsivo.css" rel="stylesheet">
 
-  <link href="./styles/responsivo/texto-responsivo.css" rel="stylesheet">
-  <!--FONT-->
+  <!--ICONS BOOTSTRAP PARA Github, Instagram e LinkedIn-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" rel="stylesheet">
+  <!--FONT RAFAEL PERES ASSINATURA-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Babylonica&display=swap" rel="stylesheet">
+  <!--FONT Raleway-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
@@ -25,7 +35,8 @@
   <!--CABEÇALHO HEADER-->
   <header class="cabecalho">
     <div class="container">
-    <img src="./img/LetraR.svg" alt="" class="cabecalho__logo"/>
+    <!-- <img src="./img/LetraR.svg" alt="" class="cabecalho__logo"/> -->
+    <h2 class="cabecalho__logo">Rafael Peres</h2>
     <nav class="cabecalho__nav">
       <ul class="cabecalo__nav___ul">
         <li class="cabecalho__nav___lista_items">
@@ -71,12 +82,13 @@
     <h1 class="hero__box___titulo">Olá, meu nome é Fulana de Tal e construo páginas web</h1>
     <h2 class="hero__box___subtitulo">Eu sou formada em lorem ipsum sit amet consectetur e atualmente estou participando no projeto Oracle ONE na Alura.</h2>
     <ul class="hero__box___mediaLinks">
-      <li class="hero__box___mediaLinks-items"><a href="#">Github</a></li>
-      <li class="hero__box___mediaLinks-items"><a href="#">LinkedIn</a></li>
-      <li class="hero__box___mediaLinks-items"><a href="#">Instagram</a></li>
-      <li class="hero__box___mediaLinks-items"><a href="#">Currículo</a></li>
+      <li class="hero__box___mediaLinks-items"><a href="#"><i class=" bi-github incone"></i></a></li>
+      <li class="hero__box___mediaLinks-items"><a href="#"><i class=" bi-linkedin incone"></i></a></li>
+      <li class="hero__box___mediaLinks-items"><a href="#"><i class=" bi-instagram incone"></i></a></li>
+      <li class="hero__box___mediaLinks-items"><a href="#"><i title="Currículo" class=" bi-file-earmark-person incone"></i></a></li>
     </ul>
   </div>
+  <img class="hero__foto" src="./img/RafaelPeres.jfif" alt="Foto de rosto Rafael Peres. Cabeça careca, usando óculos e com barba." title="Rafael Peres ;)">
 </section>
 <!--FIM HERO APRESENTAÇÃO-->
 
@@ -104,6 +116,7 @@
       </ul>
     </nav>
   </div>
+  <br><br>
   <div class="skills__box">
     <h2 class="skills__titulo">Hobbies</h2>
     <nav>
@@ -111,13 +124,48 @@
         <li class="skills__cards___link cards--hobbies"><h3>Tocar violão</h3></li>
         <li class="skills__cards___link cards--hobbies"><h3>Ouvir música</h3></li>
         <li class="skills__cards___link cards--hobbies"><h3>Games</h3></li>
-        
-
+        <li class="skills__cards___link cards--hobbies"><h3>Games</h3></li>
+        <li class="skills__cards___link cards--hobbies"><h3>Games</h3></li>
       </ul>
     </nav>
   </div>
 </section>
 <!--FIM SKILLS & HOBBIES SECTION-->
+
+<!--FORMAÇÃO ACADEMICA-->
+<section class="formacao">
+  <div class="formacao__box">
+      <h2 class="formacao__titulo">Formação Acadêmica</h2>
+      <div class="formacao__figure__box">
+        <figure class="formacao__figure">
+          <img src="./img/ALURA-svg.svg" alt="" class="formacao__figure__imagem">
+          <figcaption class="formacao__figure__caption">Formação Front-end Alura</figcaption>
+          <p>2021 - Alura</p>
+        </figure>
+
+        <figure class="formacao__figure">
+          <img src="./img/ALURA-svg.svg" alt="" class="formacao__figure__imagem">
+          <figcaption class="formacao__figure__caption">Formação Alura</figcaption>
+          <p>2021 - Alura</p>
+        </figure>
+
+        <figure class="formacao__figure">
+          <img src="./img/ALURA-svg.svg" alt="" class="formacao__figure__imagem">
+          <figcaption class="formacao__figure__caption">Formação Alura</figcaption>
+          <p>2021 - Alura</p>
+        </figure>
+      </div>
+  </div>
+</section>
+<!--FIM FORMAÇÃO ACADEMICA-->
+
+<!--EXPERIÊNCIA PROFISSIONAL-->
+
+  
+
+
+<!--FIM EXPERIÊNCIA PROFISSIONAL-->
+
 </main>
 <!--FIM MAIN CONTEUDO-->
 <!--RODAPÉ-->
