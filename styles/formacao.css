@@ -2,13 +2,14 @@
   background-color: #EAF2FD;
   padding: 64px 0;
 
-  border: 1px solid red;
+ 
 }
 
 .formacao__titulo{
   text-align: center;
   font-weight: 700;
-  font-size: 32px;
+  font-size: var(--fs-content-titulo700);
+	line-height: var(--lh-content-titulo700);
   margin-bottom: 16px;
 }
 
@@ -18,7 +19,6 @@
   justify-content: center;
 
 }
-
 .formacao__figure{
   margin: 1%;
 }
@@ -38,4 +38,11 @@
   font-size: var(--fs-subt400);
   line-height: var(--lh-subt400);
   font-weight: bold;
+}
+
+@media screen and (max-width: 330px){
+  .formacao__figure__imagem{
+    width: 330px;
+	  height: 286px;
+  }
 }

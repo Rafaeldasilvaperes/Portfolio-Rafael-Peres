@@ -1,0 +1,12 @@
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rodape{
+  grid-area: rodape;
+  height: 70px;
+  font-size: var(--fs-content-P);
+  line-height: var(--lh-content-P);
+}

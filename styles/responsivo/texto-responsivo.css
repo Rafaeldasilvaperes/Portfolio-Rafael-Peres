@@ -1,32 +1,11 @@
-@media screen and (maxx-width: 768px){
+@media screen and (max-width: 768px){
 
 }
 
 @media screen and (min-width: 1900px){
 	:root{
-		/* --fs-titulo700: 52px;
-  --lh-titulo700: 61px;
-
-  --fs-subt400: 22px;
-  --lh-subt400: 26px;
-
-  --fs-content-titulo700: 32px;
-  --lh-content-titulo700: 37.57px;
-
-  --fs-content-P: 16px;
-  --lh-content-P: 19px;
-
-  --padding-default: 152px; */
-		--fs-titulo700: 90px;
-		--lh-titulo700: 105.58px;
-
-		--fs-subt400: 38.08px;
-		--lh-subt400: 45px;
-
-		--fs-content-P: 28px;
-		--lh-content-P: 32px;
-
-		--padding-default: 122px;
+	
+    --padding-default: 352px;
 	}
 }
 
@@ -62,6 +41,8 @@
 		--fs-incones-medias-sociais: 25px;
 		--foto-width: 98px;
 		--foto-height: 98px;
+
+		
 	}
 	.app{
 		gap: 0px;
@@ -73,5 +54,25 @@
     padding: 10px var(--padding-default);
   }
 	
+	.cabecalho__nav___lista_items a{
+		font-size: smaller;
+	}
+	
 }
+@media screen and (max-width: 330px){
+	:root{
+		--fs-LOGO: 20px;
 
+		--fs-titulo700: 14px;
+		--lh-titulo700: 14px;
+		--fs-subt400: 12px;
+		--lh-subt400: 14px;
+		--fs-content-titulo700: 16px;
+		--lh-content-titulo700: 25.83px;
+		--fs-content-P: 14px;
+		--lh-content-P: 16.44px;
+
+		--foto-width: 0px;
+		--foto-height:0px;
+	}
+}

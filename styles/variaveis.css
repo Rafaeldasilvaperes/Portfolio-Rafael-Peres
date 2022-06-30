@@ -1,0 +1,23 @@
+:root{
+  --fs-LOGO: 3em;
+
+  --fs-titulo700: 52px;
+  --lh-titulo700: 61px;
+
+  --fs-subt400: 22px;
+  --lh-subt400: 26px;
+
+  --fs-content-titulo700: 32px;
+  --lh-content-titulo700: 37.57px;
+
+  --fs-content-P: 16px;
+  --lh-content-P: 19px;
+
+  --padding-default: 152px;
+  --padding-sobreMin: 385px;
+
+  --foto-width: 368px;
+  --foto-height: 368px;
+
+  --fs-incones-medias-sociais: 32px;
+}

@@ -8,12 +8,12 @@
   padding: 64px var(--padding-default);
  
   background-color: #EAF2FD;
-  border: 1px solid red;
+  
 }
 
 
 .aboutMe__box{
-  padding-right: var(--padding-sobreMin); /*385px*/
+  padding-right: var(--padding-sobreMin);
 }
 
 .aboutMe__titulo{
@@ -38,4 +38,10 @@
   font-size: var(--fs-LOGO);
   text-align: left;
   font-family: 'Babylonica', cursive;
+}
+
+@media screen and (max-width: 330px){
+  .aboutMe, .aboutMe__box{
+    padding: 2%;
+  }
 }

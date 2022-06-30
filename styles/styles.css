@@ -1,25 +1,7 @@
-:root{
-  --fs-LOGO: 3em;
 
-  --fs-titulo700: 52px;
-  --lh-titulo700: 61px;
 
-  --fs-subt400: 22px;
-  --lh-subt400: 26px;
-
-  --fs-content-titulo700: 32px;
-  --lh-content-titulo700: 37.57px;
-
-  --fs-content-P: 16px;
-  --lh-content-P: 19px;
-
-  --padding-default: 152px;
-  --padding-sobreMin: 385px;
-
-  --foto-width: 368px;
-  --foto-height: 368px;
-
-  --fs-incones-medias-sociais: 32px;
+html {
+  scroll-behavior: smooth;
 }
 
 body{
@@ -41,12 +23,12 @@ body{
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   gap: 32px;
-  border: 1px solid red;
+  
 }
 
 .cabecalho{
   grid-area: cabecalho;
-  border: 1px solid red;
+  
 }
 
 .conteudo{
@@ -59,7 +41,10 @@ body{
   "hero"
   "aboutMe"
   "skills"
-  "formacao";
+  "formacao"
+  "projetos"
+  "contato"
+  "footer";
 
   /* border: 1px solid rgb(87, 248, 120); */
   
@@ -67,7 +52,7 @@ body{
 
 .rodape{
   grid-area: rodape;
-  border: 1px solid red;
+  
 }
 
 .container{

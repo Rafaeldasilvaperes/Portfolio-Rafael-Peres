@@ -2,13 +2,14 @@
   grid-area: skills;
   padding: 64px 0;
 
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 
 .skills__titulo{
   text-align: center;
   font-weight: 700;
-  font-size: 32px;
+  font-size: var(--fs-content-titulo700);
+	line-height: var(--lh-content-titulo700);
   margin-bottom: 16px;
 }
 
@@ -37,64 +38,46 @@
 
 	font-weight: bold;
 	transition: .3s;
-	box-shadow: 2px 5px 5px rgb(0, 0, 0);
-	/* padding-left: 1%; */
+	border-radius: 5px 5px 0 0;
+
+
 }
 
 .skills__cards___link:hover {
-	box-shadow: 8px 8px 5px rgb(0, 0, 0);
+	box-shadow: 5px 5px 0px rgb(0, 0, 0);
 }
-
+/* url - center / cover no-reapet */
 .skills__cards___link:nth-child(1){
-	background: url(../img/HTML-svg.svg) no-repeat;
-	background-position: center;
-	background-size: 20%;
-	background-color: #FFF;
-	
+	background: #FFF url(../img/HTML-svg.svg) center / 20% no-repeat;
 }
 .skills__cards___link:nth-child(2) {
-	background: url(../img/CSS-svg.svg) no-repeat;
-	background-position: center;
-	background-size: 25%;
-	background-color: #FFF;	
-	
-	
+	background: #FFF url(../img/CSS-svg.svg) center / 20% no-repeat;
 }
 .skills__cards___link:nth-child(3) {
-	background: url(../img/JS-svg.svg) no-repeat;
-	background-position: center;
-	background-size: 20%;
-	background-color: #FFF;
+	background: #FFF url(../img/JS-svg.svg) center / 20% no-repeat;
 }
+.skills__cards___link:nth-child(4) {
+	background: #FFF url(../img/GIT-svg.svg) center / 20% no-repeat;
+}
+.skills__cards___link:nth-child(5) {
+	background: #FFF url(../img/GITHUB-svg.svg) center / 20% no-repeat;
+}
+
 .cards--hobbies:nth-child(1) {
-	background: url(../img/guitar.svg) no-repeat;
-	background-position: center;
-	background-size: 20%;
-	background-color: #FFF;
+	background: #FFF url(../img/guitar.svg) center / 20% no-repeat;
 }
 .cards--hobbies:nth-child(2) {
-	background: url(../img/music-svg.svg) no-repeat;
-	background-position: center;
-	background-size: 20%;
-	background-color: #FFF;
+	background: #FFF url(../img/music-svg.svg) center / 20% no-repeat;
 }
 .cards--hobbies:nth-child(3) {
-	background: url(../img/controller-svg.svg) no-repeat;
-	background-position: center;
-	background-size: 20%;
-	background-color: #FFF;
+	background: #FFF url(../img/controller-svg.svg) center / 20% no-repeat;
 }
 .cards--hobbies:nth-child(4) {
-	background: url(../img/controller-svg.svg) no-repeat;
-	background-position: center;
-	background-size: 20%;
-	background-color: #FFF;
+	background: #FFF url(../img/MICROFONE-svg.svg) center / 13% no-repeat;
+	font-size: smaller;
 }
 .cards--hobbies:nth-child(5) {
-	background: url(../img/controller-svg.svg) no-repeat;
-	background-position: center;
-	background-size: 20%;
-	background-color: #FFF;
+	background: #FFF url(../img/controller-svg.svg) center / 20% no-repeat;
 }
 
 @media screen and (max-width: 768px){
@@ -103,5 +86,17 @@
 		height: 100px;
 	}
 }
-
+@media screen and (max-width: 330px){
+	.skills__cards___link{
+		width: 330px;
+		height: 286px;
+	}
+	.skills__cards{
+		justify-content: flex-start;
+	}
+	.skills__cards___link{
+		margin: 2%;
+	}
+	
+}
 

@@ -1,0 +1,160 @@
+.contato{
+  grid-area: contato;
+  padding: 128px var(--padding-default);
+  background-color: #EAF2FD;
+
+}
+
+.contato__box{
+  display: flex;
+  
+}
+
+.contato__img{
+  max-width: 464px;
+  height: 593px;
+}
+
+.contato__form{
+  display: flex;
+  flex-direction: column;
+  
+}
+.contato__form__titulo{
+  padding-left: 12px;
+  font-size: var(--fs-content-titulo700);
+  line-height: var(--lh-content-titulo700);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.contato__form__subtitulo{
+  padding-left: 12px;
+  font-size: var(--fs-content-P);
+  line-height: var(--lh-content-P);
+
+
+}
+.contato__form form{
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+.input-container{
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+.input-label{
+    position: absolute;
+    top: 1.375rem;
+    left: 0.5rem;
+    font-weight: 400;
+    opacity: 0.7;
+    transition: all .25s;
+  }
+
+.input {
+  box-sizing: border-box;
+  padding: 25px 0.5rem 0.5rem;
+  height: 3.25rem;
+  width: 100%;
+  background-color: transparent;
+ 
+  border: none;
+  border-bottom: 2px solid gray;
+  margin-bottom: 10px;
+}
+
+.input::placeholder {
+  visibility: hidden;
+  color: #00000000;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input-label {
+  position: absolute;
+  top: 1.375rem;
+  left: 0.5rem;
+  font-size: 1.2em;
+
+  transition: all .25s;
+}
+
+.input:not(:placeholder-shown) + .input-label, .input:focus + .input-label {
+  font-size: 0.875rem;
+  top: 0.25rem;
+  transition: all .25s;
+}
+
+.textarea {
+  box-sizing: border-box;
+  padding: 0.5rem;    
+  border-radius: 7px;
+  width: 100%;
+  min-height: 3rem;
+  resize: none;
+}
+
+.textarea-container {
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+ 
+}
+
+.textarea::placeholder {
+  visibility: hidden;
+}
+
+.textarea:focus {
+  outline: none;
+}
+
+.textarea-label {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  transition: all 0.25s;
+}
+
+.textarea:not(:placeholder-shown) + .textarea-label, .textarea:focus + .textarea-label {
+  font-size: 0.875rem;
+  top: -1.25rem;
+  transition: all 0.25s;
+}
+
+.submit__btn{
+  text-decoration: none;
+  padding: 16px;
+  margin-top: 10px;
+  border: none;
+  background: #2A7AE4;
+  color: white;
+  cursor: pointer;
+}
+.submit__btn:hover{
+  background: #0e62d0;
+}
+.submit__btn:active{
+  background: #006eff;
+  transform: scale(0.9);
+}
+
+@media screen and (max-width: 1024px) {
+  .contato__img{
+    display: none;
+  }
+  .contato{
+    display: flex;
+    justify-content: center;
+  }
+}

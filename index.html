@@ -7,18 +7,22 @@
   <title>Rafael Peres</title>
   <link href="./styles/reset.css" rel="stylesheet">
   <link href="./styles/normalize.css" rel="stylesheet">
+  <link href="./styles/variaveis.css" rel="stylesheet">
   <link href="./styles/styles.css" rel="stylesheet">
   <link href="./styles/cabecalho.css" rel="stylesheet">
   <link href="./styles/hero.css" rel="stylesheet">
-  <link href="./styles/aboutMe.css" rel="stylesheet">
+  <link href="./styles/sobre.css" rel="stylesheet">
   <link href="./styles/skills.css" rel="stylesheet">
   <link href="./styles/formacao.css" rel="stylesheet">
-  
-  <link href="./styles/footer.css" rel="stylesheet">
+  <link href="./styles/projetos.css" rel="stylesheet">
+  <link href="./styles/contato.css" rel="stylesheet">
+  <link href="./styles/rodape.css" rel="stylesheet">
   
   <!--CSS RESPONSIVO-->
-  <link href="./styles/responsivo/responsivo.css" rel="stylesheet">
+  <link href="./styles/responsivo/texto-responsivo.css" rel="stylesheet">
 
+  <!--ICONE DA PÁGINA-->
+  <link rel="icon" href="img/RafaelPeres-favicon.svg?" type="image/icon type">
   <!--ICONS BOOTSTRAP PARA Github, Instagram e LinkedIn-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" rel="stylesheet">
   <!--FONT RAFAEL PERES ASSINATURA-->
@@ -40,33 +44,33 @@
     <nav class="cabecalho__nav">
       <ul class="cabecalo__nav___ul">
         <li class="cabecalho__nav___lista_items">
-          <a href="#" class="cabecalho__nav___lista_intems_links">
+          <a href="#sobre" class="cabecalho__nav___lista_intems_links">
             Sobre mim
           </a>
         </li>
         <li class="cabecalho__nav___lista_items">
-          <a href="#" class="cabecalho__nav___lista_intems_links">
-            Skills
+          <a href="#skills" class="cabecalho__nav___lista_intems_links">
+            Skills/Hobbies
           </a>
         </li>
-        <li class="cabecalho__nav___lista_items">
+        <!-- <li class="cabecalho__nav___lista_items">
           <a href="#" class="cabecalho__nav___lista_intems_links">
             Hobbies
           </a>
-        </li>
+        </li> -->
         <li class="cabecalho__nav___lista_items">
-          <a href="#" class="cabecalho__nav___lista_intems_links">
+          <a href="#formacao" class="cabecalho__nav___lista_intems_links">
             Formação
           </a>
         </li>
         <li class="cabecalho__nav___lista_items">
-          <a href="#" class="cabecalho__nav___lista_intems_links">
+          <a href="#projetos" class="cabecalho__nav___lista_intems_links">
             Projetos
           </a>
         </li>
         <li class="cabecalho__nav___lista_items">
           <a href="#" class="cabecalho__nav___lista_intems_links">
-            rafaeldasilvaperes@hotmail.com
+            <strong>rafaeldasilvaperes@hotmail.com</strong>
           </a>
         </li>
       </ul>
@@ -80,7 +84,7 @@
 <section class="hero">
   <div class="hero__box container">
     <h1 class="hero__box___titulo">Olá, meu nome é Fulana de Tal e construo páginas web</h1>
-    <h2 class="hero__box___subtitulo">Eu sou formada em lorem ipsum sit amet consectetur e atualmente estou participando no projeto Oracle ONE na Alura.</h2>
+    <h2 class="hero__box___subtitulo">Eu sou formada em lorem ipsum sit amet consectetur e atualmente estou participando no projeto <strong class="oracle-text"><a href="https://www.oracle.com/br/education/oracle-next-education/" target="_blank">Oracle ONE</a></strong> na <strong class="alura-text"><a href="https://www.alura.com.br/" target="_blank">Alura</a></strong>.</h2>
     <ul class="hero__box___mediaLinks">
       <li class="hero__box___mediaLinks-items"><a href="#"><i class=" bi-github incone"></i></a></li>
       <li class="hero__box___mediaLinks-items"><a href="#"><i class=" bi-linkedin incone"></i></a></li>
@@ -93,7 +97,7 @@
 <!--FIM HERO APRESENTAÇÃO-->
 
 <!--ABOUT ME SECTION-->
-<section class="aboutMe">
+<section id="sobre" class="aboutMe">
   <div class="aboutMe__box container">
     <h2 class="aboutMe__titulo">Sobre mim</h2>
     <h3 class="aboutMe__paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. <br><br>
@@ -105,7 +109,7 @@
 <!--FIM ABOUT ME SECTION-->
 
 <!--SKILLS & HOBBIES SECTION-->
-<section class="skills">
+<section id="skills" class="skills">
   <div class="skills__box">
     <h2 class="skills__titulo">Skills</h2>
     <nav>
@@ -113,6 +117,8 @@
         <li class="skills__cards___link"><h3>HTML5</h3></li>
         <li class="skills__cards___link"><h3>CSS3</h3></li>
         <li class="skills__cards___link"><h3>JavaScript</h3></li>
+        <li class="skills__cards___link"><h3>Git</h3></li>
+        <li class="skills__cards___link"><h3>Github</h3></li>
       </ul>
     </nav>
   </div>
@@ -122,9 +128,9 @@
     <nav>
       <ul class="skills__cards">
         <li class="skills__cards___link cards--hobbies"><h3>Tocar violão</h3></li>
-        <li class="skills__cards___link cards--hobbies"><h3>Ouvir música</h3></li>
+        <li class="skills__cards___link cards--hobbies"><h3>Música</h3></li>
         <li class="skills__cards___link cards--hobbies"><h3>Games</h3></li>
-        <li class="skills__cards___link cards--hobbies"><h3>Games</h3></li>
+        <li class="skills__cards___link cards--hobbies"><h3>Decorar letras</h3></li>
         <li class="skills__cards___link cards--hobbies"><h3>Games</h3></li>
       </ul>
     </nav>
@@ -133,7 +139,7 @@
 <!--FIM SKILLS & HOBBIES SECTION-->
 
 <!--FORMAÇÃO ACADEMICA-->
-<section class="formacao">
+<section id="formacao" class="formacao">
   <div class="formacao__box">
       <h2 class="formacao__titulo">Formação Acadêmica</h2>
       <div class="formacao__figure__box">
@@ -159,13 +165,79 @@
 </section>
 <!--FIM FORMAÇÃO ACADEMICA-->
 
-<!--EXPERIÊNCIA PROFISSIONAL-->
+<!--PROJETOS-->
 
-  
+<section id="projetos" class="projetos">
+  <h2 class="projetos__titulo">Experiência Profissional</h2>
+  <div class="projetos__box">
+    <img src="./img/Decordificador.png" alt="Imagem página principal projeto Decodificador de texto" class="projetos__img">
 
+    <div class="projetos__descricao">
+      <h3 class="projetos__descricao__titulo">Decodificador de Texto</h3>
+      <h4 class="projetos__descricao__subtitulo">Challenge Alura Codificador</h4>
+      <div class="projetos__descricao__btn_box">
+        <a href="#" class="projetos__descricao__btn repo">Repositório</a>
+        <a href="#" class="projetos__descricao__btn demo">Ver demo</a>
+      </div>
+    </div>
+  </div>
 
-<!--FIM EXPERIÊNCIA PROFISSIONAL-->
+  <div class="projetos__box">
+    <img src="./img/Forca-Desktop.png" alt="Imagem página principal projeto Decodificador de texto" class="projetos__img">
 
+    <div class="projetos__descricao">
+      <h3 class="projetos__descricao__titulo">Jogo da Forca</h3>
+      <h4 class="projetos__descricao__subtitulo">Challenge Alura Codificador</h4>
+      <div class="projetos__descricao__btn_box">
+        <a href="#" class="projetos__descricao__btn repo">Repositório</a>
+        <a href="#" class="projetos__descricao__btn demo">Ver demo</a>
+      </div>
+    </div>
+  </div>
+
+</section>
+<!--FIM PROJETOS-->
+
+<!--CONTATO-->
+
+<section class="contato">
+  <div class="contato__box">
+    <img src="./img/contato-png.png" alt="Imagem de um telefone de fio fora do gancho sobre uma superfície cinza" class="contato__img">
+    <div class="contato__form">
+      <h2 class="contato__form__titulo">Contato</h2>
+      <h4 class="contato__form__subtitulo">Quer entrar em contato  comigo?<br>
+        Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</h4>
+      <form action="">
+        <fieldset>
+
+          <div class="input-container">
+            <input class="input" name="nome" id="nome" placeholder="nome" type="text" required>
+            <label class="input-label" for="nome">Nome:</label>
+          </div>
+        
+          <div class="input-container">
+            <input class="input" name="email" id="email" placeholder="email" type="email" required>
+            <label class="input-label" for="email">Email:</label>
+          </div>
+          
+          <div class="input-container">
+            <input class="input" name="assunto" id="assunto" placeholder="assunto" type="text" required>
+            <label class="input-label" for="assunto">Assunto</label>
+          </div>
+          
+          <textarea name="" id="" rows="10" class="textarea contato__form__textarea"></textarea>
+          <label class="textarea-label" for="msg"></label>
+          <div class="btn__box">
+            <input class="submit__btn" value="Enviar mensagem" type="submit">
+          </div>
+        
+      </fieldset>
+      
+    </form>
+    </div>
+  </div>
+</section>
+<!--FIM CONTATO-->
 </main>
 <!--FIM MAIN CONTEUDO-->
 <!--RODAPÉ-->
