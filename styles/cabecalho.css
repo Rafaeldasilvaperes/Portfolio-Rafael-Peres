@@ -19,6 +19,17 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.cabecalho__linguas{
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 5%;
+  padding: 5px;
+}
+.cabecalho__linguas:hover, .cabecalho__linguas:visited, .cabecalho__linguas:focus{
+  background-color: orangered;
+}
+
 
 .cabecalo__nav___ul{
   display: flex;
