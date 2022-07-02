@@ -18,6 +18,10 @@
   margin-bottom: 24px;
 }
 
+.hero__box___titulo--nome{
+  color: orangered;
+}
+
 .hero__box___subtitulo{
   font-weight: 400;
   font-size: var(--fs-subt400);
@@ -53,7 +57,7 @@
 
 .hero__box___mediaLinks-items a{
   text-decoration: none;
-  color: black;
+  color: var(--color-default);
 }
 
 .hero__box___mediaLinks-items:nth-child(1):hover{
@@ -97,6 +101,7 @@
   height: var(--foto-height);
   float: right;
   border-radius: 50%;
+  border: 2px solid orangered;
 }
 
 @media screen and (max-width: 330px){

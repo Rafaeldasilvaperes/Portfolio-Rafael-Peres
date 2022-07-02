@@ -1,4 +1,6 @@
 :root{
+
+  /* FONT-SIZE e LINE-HEIGHT */
   --fs-LOGO: 3em;
 
   --fs-titulo700: 52px;
@@ -13,11 +15,23 @@
   --fs-content-P: 16px;
   --lh-content-P: 19px;
 
+  --fs-incones-medias-sociais: 32px;
+  /* PADDINGS e WIDTH/HEIGHT */
   --padding-default: 152px;
   --padding-sobreMin: 385px;
 
   --foto-width: 368px;
   --foto-height: 368px;
 
-  --fs-incones-medias-sociais: 32px;
+  /* CORES */
+  --bg-principal: linear-gradient(to bottom right, #3b3b4b, #000000);
+  --bg-secundario: #3b3b4b;
+
+  --color-default: white;
+
+  --bg-skill-card: #FFF;
+
+  --btn-blue: #2A7AE4;
+  --btn-hover: #ff4500;
+
 }

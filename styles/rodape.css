@@ -9,4 +9,5 @@ footer{
   height: 70px;
   font-size: var(--fs-content-P);
   line-height: var(--lh-content-P);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

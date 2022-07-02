@@ -30,7 +30,7 @@
 }
 
 .cabecalho__nav___lista_items a{
-  color: black;
+  color: var(--color-default);
   text-decoration: none;
   margin-left: 32px;
   font-weight: 500;

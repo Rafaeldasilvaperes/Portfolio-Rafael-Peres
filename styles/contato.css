@@ -1,7 +1,7 @@
 .contato{
   grid-area: contato;
   padding: 128px var(--padding-default);
-  background-color: #EAF2FD;
+  background-color: var(--bg-secundario);
 
 }
 
@@ -13,6 +13,7 @@
 .contato__img{
   max-width: 464px;
   height: 593px;
+  border-radius: 5px;
 }
 
 .contato__form{

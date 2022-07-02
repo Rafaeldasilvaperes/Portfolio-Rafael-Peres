@@ -5,9 +5,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 64px var(--padding-default);
+  padding: 32px var(--padding-default);
  
-  background-color: #EAF2FD;
+  background-color: var(--bg-secundario);
   
 }
 
@@ -39,6 +39,12 @@
   text-align: left;
   font-family: 'Babylonica', cursive;
 }
+@media screen and (max-width: 500px){
+  .aboutMe, .aboutMe__box{
+    padding: 2%;
+  }
+}
+
 
 @media screen and (max-width: 330px){
   .aboutMe, .aboutMe__box{

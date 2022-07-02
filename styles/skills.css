@@ -1,8 +1,6 @@
 .skills{
   grid-area: skills;
   padding: 64px 0;
-
-	/* border: 1px solid red; */
 }
 
 .skills__titulo{
@@ -38,46 +36,46 @@
 
 	font-weight: bold;
 	transition: .3s;
-	border-radius: 5px 5px 0 0;
+	border-radius: 2px 2px 0 0;
 
 
 }
 
 .skills__cards___link:hover {
-	box-shadow: 5px 5px 0px rgb(0, 0, 0);
+	box-shadow: -3px 3px 5px rgb(123, 119, 111);
 }
 /* url - center / cover no-reapet */
 .skills__cards___link:nth-child(1){
-	background: #FFF url(../img/HTML-svg.svg) center / 20% no-repeat;
+	background: var(--bg-skill-card) url(../img/HTML-svg.svg) center / 20% no-repeat;
 }
 .skills__cards___link:nth-child(2) {
-	background: #FFF url(../img/CSS-svg.svg) center / 20% no-repeat;
+	background: var(--bg-skill-card) url(../img/CSS-svg.svg) center / 20% no-repeat;
 }
 .skills__cards___link:nth-child(3) {
-	background: #FFF url(../img/JS-svg.svg) center / 20% no-repeat;
+	background: var(--bg-skill-card) url(../img/JS-svg.svg) center / 20% no-repeat;
 }
 .skills__cards___link:nth-child(4) {
-	background: #FFF url(../img/GIT-svg.svg) center / 20% no-repeat;
+	background: var(--bg-skill-card) url(../img/GIT-svg.svg) center / 20% no-repeat;
 }
 .skills__cards___link:nth-child(5) {
-	background: #FFF url(../img/GITHUB-svg.svg) center / 20% no-repeat;
+	background: var(--bg-skill-card) url(../img/GITHUB-svg.svg) center / 20% no-repeat;
 }
 
 .cards--hobbies:nth-child(1) {
-	background: #FFF url(../img/guitar.svg) center / 20% no-repeat;
+	background: var(--bg-skill-card) url(../img/guitar.svg) center / 20% no-repeat;
 }
 .cards--hobbies:nth-child(2) {
-	background: #FFF url(../img/music-svg.svg) center / 20% no-repeat;
+	background: var(--bg-skill-card) url(../img/music-svg.svg) center / 20% no-repeat;
 }
 .cards--hobbies:nth-child(3) {
-	background: #FFF url(../img/controller-svg.svg) center / 20% no-repeat;
+	background: var(--bg-skill-card) url(../img/controller-svg.svg) center / 20% no-repeat;
 }
 .cards--hobbies:nth-child(4) {
-	background: #FFF url(../img/MICROFONE-svg.svg) center / 13% no-repeat;
+	background: var(--bg-skill-card) url(../img/MICROFONE-svg.svg) center / 13% no-repeat;
 	font-size: smaller;
 }
 .cards--hobbies:nth-child(5) {
-	background: #FFF url(../img/controller-svg.svg) center / 20% no-repeat;
+	background: var(--bg-skill-card) url(../img/controller-svg.svg) center / 20% no-repeat;
 }
 
 @media screen and (max-width: 768px){

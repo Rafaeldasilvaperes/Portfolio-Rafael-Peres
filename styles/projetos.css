@@ -26,6 +26,13 @@
 .projetos__img{
   width: 752px;
   height: 406px;
+  border-radius: 5px;
+  box-shadow: -10px 10px 10px black;
+  transition: all 0.5s;
+}
+.projetos__img:hover{
+  transform: scale(1.03);
+  
 }
 .projetos__descricao__titulo{
   font-weight: bold;
@@ -49,13 +56,28 @@
 }
 
 .repo{
-  border: 1px solid #2A7AE4;
-  color: #2A7AE4;
+  border: 1px solid var(--btn-blue);
+  color: var(--btn-blue);
+  transition: all 0.2s;
+}
+.repo:hover{
+  border: 1px solid var(--btn-hover);
+  color: var(--btn-hover);
+}
+.repo:active{
+  transform: scale(0.8);
 }
 
 .demo{
-  background: #2A7AE4;
+  background: var(--btn-blue);
   color: white;
+  transition: all 0.3s;
+}
+.demo:hover{
+  background-color: var(--btn-hover);
+}
+.demo:active{
+  transform: scale(0.8);
 }
 
 @media screen and (max-width: 1180px) {

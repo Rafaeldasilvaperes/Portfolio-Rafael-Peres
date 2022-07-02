@@ -6,7 +6,8 @@ html {
 
 body{
   /* width: 100vw; */
-  background-color: #F5F5F5;
+  background-image: var(--bg-principal);
+  color: var(--color-default);
   /* color: white;
   background-image: linear-gradient(to bottom right, #3b3b4b, #000000); */
 }
@@ -23,7 +24,9 @@ body{
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   gap: 32px;
-  
+}
+.app:last-child{
+  gap: 0px;
 }
 
 .cabecalho{
@@ -45,14 +48,6 @@ body{
   "projetos"
   "contato"
   "footer";
-
-  /* border: 1px solid rgb(87, 248, 120); */
-  
-}
-
-.rodape{
-  grid-area: rodape;
-  
 }
 
 .container{
