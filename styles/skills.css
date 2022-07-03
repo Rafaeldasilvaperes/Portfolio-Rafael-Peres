@@ -80,8 +80,8 @@
 
 @media screen and (max-width: 768px){
 	.skills__cards___link{
-		width: 100px;
-		height: 100px;
+		width: 120px;
+		height: 120px;
 	}
 }
 @media screen and (max-width: 330px){

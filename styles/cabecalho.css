@@ -1,14 +1,11 @@
 .cabecalho{
   padding: 32px var(--padding-default);
-  
 }
-
 .cabecalho .container{
   display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
-
 .cabecalho__logo{
   font-family: 'Babylonica', cursive;
   font-size: var(--fs-LOGO);
@@ -26,15 +23,19 @@
   border-radius: 5%;
   padding: 5px;
 }
-.cabecalho__linguas:hover, .cabecalho__linguas:visited, .cabecalho__linguas:focus{
-  background-color: orangered;
+.cabecalho__linguas:hover{
+  background-color: var(--btn-hover);
 }
-
+.pt{
+  background-color: var(--btn-blue);
+}
+.en{
+  background-color: var(--btn-hover);
+}
 
 .cabecalo__nav___ul{
   display: flex;
   flex-wrap: wrap;
-  
 }
 .cabecalho__nav___lista_items{
   transition: all 500ms;
