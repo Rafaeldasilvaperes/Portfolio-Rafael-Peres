@@ -23,6 +23,13 @@
   border-radius: 5%;
   padding: 5px;
 }
+.cabecalho__linguas a{
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 5%;
+  padding: 5px;
+}
 .cabecalho__linguas:hover{
   background-color: var(--btn-hover);
 }
