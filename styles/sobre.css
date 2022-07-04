@@ -33,9 +33,7 @@
 .aboutMe__paragrafo strong{
   color: orangered;
 }
-.aboutMe__paragrafo strong:nth-of-type(2){
-  color: var(--btn-blue);
-}
+
 
 .aboutMe__assinatura{
   font-size: var(--fs-LOGO);
