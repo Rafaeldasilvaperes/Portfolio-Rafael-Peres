@@ -63,7 +63,7 @@ Utilizei o [FormSubmit](https://formsubmit.co/) para fazer com que o formulário
 A aplicação é responsiva para os aparelhos propostos no Wireframe e tomei o cuidado de manter os tamanhos de fontes e alturas de linhas, assim como espaçamentos o mais próximo do proposto no wireframe, para exercitar a capacidade de exercutar o projeto seguindo modelos disponibilizados por equipes de design. 
 
 Badge de Entrega:
-![Badge Entrega Portfólio](https://d335luupugsy2.cloudfront.net/cms%2Ffiles%2F10224%2F1645569241Insignia_3.png?utm_campaign=alura_latam_-_challenge_email_projeto_3_br&utm_medium=email&utm_source=RD+Station)
+![Badge Entrega Portfólio](./img/badge_entrega.png)
 
 <br><br>
 
