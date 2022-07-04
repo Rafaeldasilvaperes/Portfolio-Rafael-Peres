@@ -1,5 +1,24 @@
+::-webkit-scrollbar{
+	width: 0.75rem;
+}
 
+::-webkit-scrollbar-track{
+	background: #3b3b4b;
+}
+::-webkit-scrollbar-thumb{
+	background: #fe8631;
+}
+::-webkit-scrollbar-thumb:hover{
+	background: #fe8631;
+}
 
+@supports(scrollbar-color: red blue){
+	*{
+		scrollbar-color:#fc6a03 #3b3b4b;
+		scrollbar-width: thin;
+
+	}
+}
 html {
   scroll-behavior: smooth;
 }
